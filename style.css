@@ -45,3 +45,18 @@ nav ul li a{
   font-size: 18px;
   position: relative;
 }
+
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: black;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+  width: 100%;
+}
