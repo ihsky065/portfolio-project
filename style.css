@@ -93,3 +93,16 @@ nav ul li a:hover::after{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.about-col-1{
+  flex-basis: 35%;
+}
+
+.about-col-1 img{
+  width: 500px;
+  border-radius: 20px;
+}
+
+.about-col-2{
+  flex-basis: 45%;
+}
