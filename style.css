@@ -50,7 +50,7 @@ nav ul li a::after{
   content: '';
   width: 0;
   height: 3px;
-  background: black;
+  background: rgb(255, 255, 255);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -71,4 +71,12 @@ nav ul li a:hover::after{
 .header-text h1 {
   margin-top: 20px;
   font-size: 50px;
+}
+
+.header-text span {
+  background: linear-gradient(90deg, rgb(87, 146, 223), rgb(72, 112, 221),rgb(128, 128, 240));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
