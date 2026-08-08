@@ -116,3 +116,15 @@ nav ul li a:hover::after{
   line-height: 25px;
   text-align: justify;
 }
+
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
