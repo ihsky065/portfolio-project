@@ -300,3 +300,16 @@ nav ul li a:hover::after{
   padding: 80px;
   background-color: rgb(30, 30, 30);
 }
+
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
