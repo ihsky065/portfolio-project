@@ -182,7 +182,7 @@ nav ul li a:hover::after{
   padding: 30px;
   font-size: 13px;
   font-weight: 300;
-  border-right: 10px;
+  border-radius: 15px;
   transition: background 0.5s, transform 0.5s;
 }
 
@@ -208,4 +208,10 @@ nav ul li a:hover::after{
 .services-list div:hover {
   background: #900000;
   transform: translateY(-10px);
+}
+
+/*  <!-- my work --> */
+
+#portfolio {
+  padding: 50px 0;
 }
