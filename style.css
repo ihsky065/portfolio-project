@@ -292,6 +292,11 @@ nav ul li a:hover::after{
   border-radius: 10px;
   text-decoration: none;
   color: #fff;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #900000;
 }
 
 /*<!-- contact --> */
