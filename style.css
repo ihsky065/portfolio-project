@@ -31,6 +31,11 @@ nav {
 
 .logo {
   width: 115px;
+  margin-top: 5px;
+}
+
+.mobile-logo{
+  display: none;
 }
 
 nav ul li {
@@ -380,4 +385,18 @@ form .bt2 {
 
 .copyright i {
   color: #900000;
+}
+
+/* mobile version */
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+  
+  .mobile-logo{
+    display: block;
+    margin-top: 5px;
+    width: 115px;
+  }
 }
