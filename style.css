@@ -458,12 +458,15 @@ nav .fa-solid {
   .about-col-2 {
     font-size: 20px;
   }
-  .tab-links {
-    font-size: 30px;
+  .about-col-2 .tab-titles p{
+    font-size: 23px;
     margin-right: 40px;
   }
-  #services .services-list h2{
+  #about .services-list h2{
     font-size: 30px;
+  }
+  #about .tab-contents span{
+    font-size: 20px;
   }
   #services .services-list p{
     font-size: 20px;
