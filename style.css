@@ -462,4 +462,13 @@ nav .fa-solid {
     font-size: 30px;
     margin-right: 40px;
   }
+  #services .services-list h2{
+    font-size: 30px;
+  }
+  #services .services-list p{
+    font-size: 20px;
+  }
+  #services .services-list a{
+    font-size: 20px;
+  }
 }
