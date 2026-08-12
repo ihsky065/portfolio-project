@@ -394,9 +394,6 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
-  nav .fa-solid {
-    display: block;
-  }
   .logo {
     display: none;
   }
@@ -412,6 +409,10 @@ nav .fa-solid {
     text-align: center;
   }
   .header-text p {
+    font-size: 20px;
+  }
+  nav .fa-solid {
+    display: block;
     font-size: 20px;
   }
 }
