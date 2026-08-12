@@ -399,4 +399,12 @@ form .bt2 {
     margin-top: 5px;
     width: 115px;
   }
+  .header-text {
+    font-size: 5px;
+    color: #fff;
+    text-align: center;
+  }
+  .header-text p {
+    font-size: 20px;
+  }
 }
