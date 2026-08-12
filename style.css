@@ -441,4 +441,14 @@ nav .fa-solid {
     right: 105px;
     cursor: pointer;
   }
+  .sub-title {
+    font-size: 40px;
+  }
+  .about-col-1, .about-col-2 {
+    flex-basis: 100%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
