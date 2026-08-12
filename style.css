@@ -389,7 +389,14 @@ form .bt2 {
 
 /* mobile version */
 
+nav .fa-solid {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
+  nav .fa-solid {
+    display: block;
+  }
   .logo {
     display: none;
   }
