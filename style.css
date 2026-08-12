@@ -415,4 +415,13 @@ nav .fa-solid {
     display: block;
     font-size: 20px;
   }
+  nav ul {
+    background:  rgb(30, 30, 30);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100vh;
+    padding-top: 50px;
+  }
 }
