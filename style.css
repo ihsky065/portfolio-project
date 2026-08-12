@@ -404,12 +404,17 @@ nav .fa-solid {
     width: 115px;
   }
   .header-text {
-    font-size: 5px;
     color: #fff;
     text-align: center;
+    margin-top: 80px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+    margin-top: 200px;
   }
   .header-text p {
     font-size: 20px;
+    font-weight: bolder;
   }
   nav .fa-solid {
     display: block;
