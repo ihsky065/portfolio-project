@@ -419,7 +419,7 @@ nav .fa-solid {
     background:  rgb(30, 30, 30);
     position: fixed;
     top: 0;
-    right: 0;
+    right: -150px;
     width: 150px;
     height: 100vh;
     padding-top: 50px;
@@ -427,5 +427,11 @@ nav .fa-solid {
   nav ul li{
     display: block;
     margin: 25px;
+  }
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    right: 105px;
+    cursor: pointer;
   }
 }
