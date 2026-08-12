@@ -451,4 +451,15 @@ nav .fa-solid {
     width: 100%;
     margin-bottom: 30px;
   }
+  .about-col-2 p{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .about-col-2 {
+    font-size: 20px;
+  }
+  .tab-links {
+    font-size: 30px;
+    margin-right: 40px;
+  }
 }
