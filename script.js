@@ -35,6 +35,12 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbxzI3gvUsE6EWKeZrzrkM
 		e.preventDefault()
 		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
 			.then(response => response.json())
-			.then(response => console.log('Success!', response))
+			.then(response => {
+                message.innerHTML = 'Message sent successfully!';
+                setTimeout(function() {
+                    message.innerHTML = '';
+                }, 5000)
+                form.reset()
+            })
 			.catch(error => console.error('Error!', error.message))
 	})
