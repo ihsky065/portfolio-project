@@ -408,17 +408,17 @@ nav .fa-solid {
    .header-text {
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .header-text p {
-    font-size: 20px;
+    font-size: 25px;
   }
   
   .header-text h1 {
-    font-size: 30px;
-    margin-top: 10px;
-    line-height: 30px;
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 45px;
   }
   
   nav .fa-solid {
@@ -458,9 +458,8 @@ nav .fa-solid {
   }
   /* below it has issue */
   .about-col-2 p{ 
-    font-size: 8px;
+    font-size: 18px;
     line-height: 28px;
-    width: 100%;
   }
   .about-col-2 {
     font-size: 15px;
@@ -496,12 +495,16 @@ nav .fa-solid {
   }
   #contact {
     padding: 10px;
+    padding-top: 50px;
   }
   .contact-left p{
     font-size: 15px;
   }
   .contact-left .fa-brands{
     font-size: 20px;
+  }
+  form input, form textarea {
+    font-size: 15px;
   }
   .copyright p {
     font-size: 13px;
