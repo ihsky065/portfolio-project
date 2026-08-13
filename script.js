@@ -24,3 +24,16 @@ function openmenu() {
 function closemenu() {
     sidemenu.style.right = '-150px';
 }
+
+//contact page
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxzI3gvUsE6EWKeZrzrkMU4j119we0vkrLwziHpewH18YI5ef5VJConw6NVMpjOwBMe/exec'
+	const form = document.forms['submit-to-google-sheet']
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+	})
