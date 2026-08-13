@@ -517,3 +517,10 @@ nav .fa-solid {
     padding: 15px;
   }
 }
+
+#message {
+  color: white;
+  font-weight: bolder;
+  margin-top: -25px;
+  display: block;
+}
