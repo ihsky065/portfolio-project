@@ -506,7 +506,7 @@ nav .fa-solid {
   .copyright p {
     font-size: 13px;
   }
-  .btn .bt2 .submit {
-    font-size: 1000px;
+  .copyright {
+    padding: 15px;
   }
 }
